@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2E50E6E425EFE7E30063A3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50E6E325EFE7E30063A3F6 /* AppDelegate.swift */; };
-		2E50E6E625EFE7E30063A3F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50E6E525EFE7E30063A3F6 /* SceneDelegate.swift */; };
-		2E50E6E825EFE7E30063A3F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50E6E725EFE7E30063A3F6 /* ViewController.swift */; };
+		2E50E6E825EFE7E30063A3F6 /* SelectOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50E6E725EFE7E30063A3F6 /* SelectOptionsVC.swift */; };
 		2E50E6EB25EFE7E30063A3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E50E6E925EFE7E30063A3F6 /* Main.storyboard */; };
 		2E50E6ED25EFE7E50063A3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E50E6EC25EFE7E50063A3F6 /* Assets.xcassets */; };
 		2E50E6F025EFE7E50063A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E50E6EE25EFE7E50063A3F6 /* LaunchScreen.storyboard */; };
+		2E50E71C25F0274E0063A3F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50E71B25F0274E0063A3F6 /* SceneDelegate.swift */; };
+		2ED6631B25F239EC00FF06E0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6631A25F239EC00FF06E0 /* Question.swift */; };
+		2ED6632325F28FD500FF06E0 /* QuestionAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6632225F28FD500FF06E0 /* QuestionAnswerVC.swift */; };
+		2ED6632725F290BF00FF06E0 /* QuestionCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6632625F290BF00FF06E0 /* QuestionCollectionCell.swift */; };
+		2ED6632B25F3AF0900FF06E0 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6632A25F3AF0900FF06E0 /* ResultVC.swift */; };
+		2ED6632E25F3B09400FF06E0 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6632D25F3B09400FF06E0 /* ResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E50E6E025EFE7E30063A3F6 /* SmartlyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartlyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E50E6E025EFE7E30063A3F6 /* Smartly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E50E6E325EFE7E30063A3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E50E6E525EFE7E30063A3F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E50E6E725EFE7E30063A3F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E50E6E725EFE7E30063A3F6 /* SelectOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOptionsVC.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		2E50E6EA25EFE7E30063A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E50E6EC25EFE7E50063A3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E50E6EF25EFE7E50063A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E50E6F125EFE7E50063A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E50E71B25F0274E0063A3F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2ED6631A25F239EC00FF06E0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2ED6632225F28FD500FF06E0 /* QuestionAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerVC.swift; sourceTree = "<group>"; };
+		2ED6632625F290BF00FF06E0 /* QuestionCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionCell.swift; sourceTree = "<group>"; };
+		2ED6632A25F3AF0900FF06E0 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		2ED6632D25F3B09400FF06E0 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		2E50E6E125EFE7E30063A3F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E50E6E025EFE7E30063A3F6 /* SmartlyApp.app */,
+				2E50E6E025EFE7E30063A3F6 /* Smartly.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +66,69 @@
 		2E50E6E225EFE7E30063A3F6 /* SmartlyApp */ = {
 			isa = PBXGroup;
 			children = (
-				2E50E6E325EFE7E30063A3F6 /* AppDelegate.swift */,
-				2E50E6E525EFE7E30063A3F6 /* SceneDelegate.swift */,
-				2E50E6E725EFE7E30063A3F6 /* ViewController.swift */,
-				2E50E6E925EFE7E30063A3F6 /* Main.storyboard */,
-				2E50E6EC25EFE7E50063A3F6 /* Assets.xcassets */,
-				2E50E6EE25EFE7E50063A3F6 /* LaunchScreen.storyboard */,
+				2ED6631625F238ED00FF06E0 /* Application */,
+				2ED6631925F238FF00FF06E0 /* StoryBoards */,
+				2ED6632525F2909400FF06E0 /* Cells */,
+				2ED6631825F238FB00FF06E0 /* Models */,
+				2ED6631725F238F500FF06E0 /* ViewControllers */,
 				2E50E6F125EFE7E50063A3F6 /* Info.plist */,
+				2E50E6EC25EFE7E50063A3F6 /* Assets.xcassets */,
 			);
 			path = SmartlyApp;
+			sourceTree = "<group>";
+		};
+		2ED6631625F238ED00FF06E0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2E50E6E325EFE7E30063A3F6 /* AppDelegate.swift */,
+				2E50E71B25F0274E0063A3F6 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2ED6631725F238F500FF06E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E50E6E725EFE7E30063A3F6 /* SelectOptionsVC.swift */,
+				2ED6632225F28FD500FF06E0 /* QuestionAnswerVC.swift */,
+				2ED6632A25F3AF0900FF06E0 /* ResultVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2ED6631825F238FB00FF06E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2ED6631A25F239EC00FF06E0 /* Question.swift */,
+			);
+			name = Models;
+			path = ViewControllers/Models;
+			sourceTree = "<group>";
+		};
+		2ED6631925F238FF00FF06E0 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				2E50E6EE25EFE7E50063A3F6 /* LaunchScreen.storyboard */,
+				2E50E6E925EFE7E30063A3F6 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		2ED6632525F2909400FF06E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2ED6632625F290BF00FF06E0 /* QuestionCollectionCell.swift */,
+				2ED6632D25F3B09400FF06E0 /* ResultCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E50E6DF25EFE7E30063A3F6 /* SmartlyApp */ = {
+		2E50E6DF25EFE7E30063A3F6 /* Smartly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E50E6F425EFE7E50063A3F6 /* Build configuration list for PBXNativeTarget "SmartlyApp" */;
+			buildConfigurationList = 2E50E6F425EFE7E50063A3F6 /* Build configuration list for PBXNativeTarget "Smartly" */;
 			buildPhases = (
 				2E50E6DC25EFE7E30063A3F6 /* Sources */,
 				2E50E6DD25EFE7E30063A3F6 /* Frameworks */,
@@ -82,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = SmartlyApp;
+			name = Smartly;
 			productName = SmartlyApp;
-			productReference = 2E50E6E025EFE7E30063A3F6 /* SmartlyApp.app */;
+			productReference = 2E50E6E025EFE7E30063A3F6 /* Smartly.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E50E6DB25EFE7E30063A3F6 /* Build configuration list for PBXProject "SmartlyApp" */;
+			buildConfigurationList = 2E50E6DB25EFE7E30063A3F6 /* Build configuration list for PBXProject "Smartly" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E50E6DF25EFE7E30063A3F6 /* SmartlyApp */,
+				2E50E6DF25EFE7E30063A3F6 /* Smartly */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E50E6E825EFE7E30063A3F6 /* ViewController.swift in Sources */,
+				2E50E6E825EFE7E30063A3F6 /* SelectOptionsVC.swift in Sources */,
+				2ED6632325F28FD500FF06E0 /* QuestionAnswerVC.swift in Sources */,
+				2ED6632E25F3B09400FF06E0 /* ResultCell.swift in Sources */,
+				2ED6631B25F239EC00FF06E0 /* Question.swift in Sources */,
 				2E50E6E425EFE7E30063A3F6 /* AppDelegate.swift in Sources */,
-				2E50E6E625EFE7E30063A3F6 /* SceneDelegate.swift in Sources */,
+				2ED6632B25F3AF0900FF06E0 /* ResultVC.swift in Sources */,
+				2E50E71C25F0274E0063A3F6 /* SceneDelegate.swift in Sources */,
+				2ED6632725F290BF00FF06E0 /* QuestionCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SmartlyApp.SmartlyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmartlyApp.Smartly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SmartlyApp.SmartlyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmartlyApp.Smartly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E50E6DB25EFE7E30063A3F6 /* Build configuration list for PBXProject "SmartlyApp" */ = {
+		2E50E6DB25EFE7E30063A3F6 /* Build configuration list for PBXProject "Smartly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E50E6F225EFE7E50063A3F6 /* Debug */,
@@ -329,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E50E6F425EFE7E50063A3F6 /* Build configuration list for PBXNativeTarget "SmartlyApp" */ = {
+		2E50E6F425EFE7E50063A3F6 /* Build configuration list for PBXNativeTarget "Smartly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E50E6F525EFE7E50063A3F6 /* Debug */,
