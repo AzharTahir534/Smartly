@@ -283,7 +283,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="378" height="529"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="w4V-0P-mVt">
-                                                            <rect key="frame" x="12" y="12" width="354" height="30"/>
+                                                            <rect key="frame" x="12" y="12" width="354" height="56"/>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                                                             <color key="textColor" systemColor="systemTealColor"/>
                                                             <nil key="highlightedColor"/>
@@ -373,7 +373,7 @@
                                                         <constraint firstItem="r3O-b3-pNm" firstAttribute="leading" secondItem="MLm-WC-O8I" secondAttribute="leading" constant="12" id="2wd-nn-HNu"/>
                                                         <constraint firstItem="r3O-b3-pNm" firstAttribute="top" secondItem="MLm-WC-O8I" secondAttribute="top" constant="80" id="3ZI-9S-NUb"/>
                                                         <constraint firstItem="ZPF-RY-4hn" firstAttribute="leading" secondItem="MLm-WC-O8I" secondAttribute="leading" constant="12" id="4AX-Lm-m9e"/>
-                                                        <constraint firstItem="r3O-b3-pNm" firstAttribute="top" relation="greaterThanOrEqual" secondItem="w4V-0P-mVt" secondAttribute="bottom" constant="12" id="6Hu-LI-7H8"/>
+                                                        <constraint firstItem="r3O-b3-pNm" firstAttribute="top" secondItem="w4V-0P-mVt" secondAttribute="bottom" constant="12" id="6Hu-LI-7H8"/>
                                                         <constraint firstItem="GkN-kP-hYk" firstAttribute="leading" secondItem="MLm-WC-O8I" secondAttribute="leading" constant="12" id="76W-Nx-cbG"/>
                                                         <constraint firstItem="cTv-nO-OYT" firstAttribute="leading" secondItem="MLm-WC-O8I" secondAttribute="leading" constant="12" id="BVI-Cu-239"/>
                                                         <constraint firstItem="GkN-kP-hYk" firstAttribute="top" secondItem="cTv-nO-OYT" secondAttribute="bottom" constant="8" id="Jtg-7n-Kih"/>
