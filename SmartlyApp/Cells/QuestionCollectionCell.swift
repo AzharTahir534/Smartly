@@ -50,7 +50,7 @@ class QuestionCollectionCell: UICollectionViewCell {
     
     @IBAction func answerBtnAction(_ sender: UIButton) {
         
-        debugPrint(sender.titleLabel?.text)
+//        debugPrint(sender.titleLabel?.text)
         
         guard let title = sender.titleLabel?.text else {
             return
